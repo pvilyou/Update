@@ -1,0 +1,19 @@
+tạo thư mục, nhấn chuột phải chọn Git Bash Here
+
+git status
+git init
+git add .
+git commit -m "update 1"
+git add .
+git push	// đẩy từ máy tính lên gihub
+git remote add <name> <url github>
+git push <name>
+git push --set-upstream <name> master
+
+git pull
+
+git clone <url gihub> 		// lấy từ github về
+
+- Quay trở lại code cũ:
+git log
+git revert <id log>
